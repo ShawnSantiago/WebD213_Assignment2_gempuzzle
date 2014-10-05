@@ -1,0 +1,73 @@
+
+
+body {
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+#appFrame {
+    margin: 0 auto;
+    width: 360px;
+    overflow: auto;
+
+}
+
+.header {
+    text-align:center;
+    margin-bottom:10px;
+}
+
+
+.matchesFound {
+    font-size:28px;   
+}
+
+.results {
+    clear:left;
+    font-size:28px; 
+    text-align:center;
+    margin-top:10px;
+}
+
+.tileRow {
+    clear:left;
+}
+
+/* The tile */
+.tile {
+    /* Keep touchable element above */
+    z-index: 1;
+
+    width:68px;
+    height:68px;
+    
+    float:left;
+    margin:2px;
+
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+
+}
+
+.selected {
+    background-color:#ff0;
+}
+
+.matched {
+   
+    opacity:0.5;
+    border:2px solid #af0;
+}
+
+/* Define the look of each of the object types */
+
+.objType1 { background-image:url("I_Diamond.png"); }
+.objType2 { background-image:url("I_Jade.png"); }
+.objType3 { background-image:url("I_Rubi.png"); }
+.objType4 { background-image:url("I_Saphire.png"); }
+.objType5 { background-image:url("S_Water07.png"); }

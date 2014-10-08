@@ -219,7 +219,7 @@
 
         if(_currentNumMatches >= _numMatchesToWin) {
             _gameOver = true;
-            $(CONST.gameOverSel).html("You win!");  
+            $(CONST.gameOverSel).html("You win  !");  
             $(CONST.resultsSel).show();          
         }
 

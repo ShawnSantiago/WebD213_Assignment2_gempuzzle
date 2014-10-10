@@ -14,8 +14,8 @@
     // Object variables (like instance variables)
     var _gridArr;   
     var _score = 0;
-    var _numTileRows = 1;
-    var _numTileColumns = 1;
+    var _numTileRows = 2;
+    var _numTileColumns = 2;
     var _minNumMatchingTiles = 3;
     var _numMatchesToWin = 1;
     var _currentNumMatches = 0;
